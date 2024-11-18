@@ -1,2 +1,14 @@
-app: paragon-constants
+# serverless.yml
+# Org name
+# This is your Serverless Framework Organization, often named after your company or team.
+# This is tied to your user account or license key.
+# This is optional. A default org is auto-set within your .serverlessrc file in your root directory, but recommended to ensure you are always deploying to the correct org.
 org: insureco
+# App name
+# The "App" concept acts as a parent container for one or more "Services," which you can configure via the `app` property in `serverless.yml`.
+# Setting an `app` activates Serverless Framework Dashboard features for that Service, such as tracking deployments, sharing outputs and secrets, and enabling metrics, traces, and logs.
+# This is optional. If you don't want to use Dashboard features, don't set this.
+app: paragon-constants
+# Service name
+# This is the name of your project/app/service/microservice (it's scope is up to you).
+service: helpers
